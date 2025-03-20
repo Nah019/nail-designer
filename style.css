@@ -1,0 +1,82 @@
+/* Configuração geral */
+body {
+    font-family: serif;
+    background-color: #FFB6C1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB6C1;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+/* Ícones */
+.icone-esquerda, .icone-direita {
+    width: 40px;
+    height: 40px;
+}
+
+/* Layout dos quadros */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.quadro {
+    background-color: #F08080;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
+
+.quadro img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Rodapé fixo */
+footer {
+    background-color: #F08080;
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Botão voltar ao topo */
+#voltar-topo {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
